@@ -1,0 +1,83 @@
+body{
+    padding:0;
+    overflow-x:hidden;
+    margin-top:40%;
+}
+body .pind{
+    font-size:32px;
+    background-color: rgb(227, 226, 226);
+    font-family: "Josefins Sans";
+}
+.customer{
+    font-size:20px;
+    background-color: rgb(193, 192, 192);
+    font-family: "Josefins Sans";
+}
+ul{
+    list-style-type: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+.img{
+    background: url("img/ham.png") no-repeat center center/cover ;
+    height:100vh;   
+}
+footer{
+    background-color: whitesmoke;
+    color:rgb(92, 91, 91);
+}
+body .marg{
+    margin-bottom:200px !important;
+}
+.left-right{
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+.flex{
+    display:flex !important;
+    margin-right:30px !important;
+    justify-content: end;
+    gap:70px;
+}
+
+@media (max-width:1000px) {
+    body{
+        padding:0;
+        overflow-x:hidden;
+        margin-top:50% !important;
+    }
+
+   body .push{
+        margin-left:10% !important;
+    }
+ .img{
+    height:100vh;
+ }  
+ .left-right .marg{
+    margin-left:10% !important;
+    width:300px !important;
+ } 
+ .flex{
+    display:flex !important;
+    justify-content:end;
+    gap:70px;
+}
+}
+@media  (max-width:500px) {
+    body{
+        padding:0 !important;
+        overflow-x:hidden !important;
+        margin-top:50% !important;
+    }
+   .flex{
+        display:flex !important;
+        justify-content:end !important;
+        gap:30px !important;
+    }
+    .left-right .marg{
+        margin-left:10% !important;
+        width:290px !important;
+    }
+}
